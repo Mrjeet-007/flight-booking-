@@ -1,0 +1,133 @@
+@media (max-width:820px) {
+
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+
+  .nav-bar .nav-list {
+    position: fixed;
+    top: 60px;
+    left: -100%;
+    background-color: #ffffff;
+    height: 90vh;
+    width: 70%;
+    border-radius: 10px;
+    border-top-left-radius: 0%;
+    width: 50%;
+    display: block;
+    transition: all 0.3s ease;
+  }
+
+  .nav-bar {
+    align-items: center;
+    height: 80px;
+
+    justify-content: space-between;
+    position: relative;
+    z-index: 20;
+
+
+  }
+
+  .nav-bar .menu-btn i {
+    display: block;
+    color: #000000 !important;
+    padding-right: 20px;
+  }
+
+
+  .nav-bar .nav-list a {
+    font-size: 20px;
+    margin: 30px 0;
+    color: #000000;
+  }
+
+  .nav-list ul {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .nav-list .nav-btn {
+    flex-direction: column;
+    margin-left: 0px;
+  }
+
+
+
+
+  .nav-btn .border {
+    border: none;
+    margin-left: 100px;
+  }
+
+  .nav-bar a:hover {
+
+    color: rgb(0, 0, 0);
+  }
+
+  .menu-btn i {
+
+    color: #000000;
+    font-size: 26px !important;
+  }
+
+  .whats {
+    max-width: 200px;
+    padding-left: 40px;
+
+  }
+
+  #check:checked~.nav-list {
+    left: 0%;
+  }
+
+  #check:checked~.menu-btn i::before {
+    content: "\f00d";
+  }
+
+
+  .section-2 {
+   
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+
+}
+
+  .from {
+    flex-direction: column;
+    align-items: center;
+
+  }
+  label{
+    padding: 15px 10px 5px 10px;
+  }
+
+  #Tikit_no{
+    width: 230px;
+  }
+
+  #date{
+    width: 230px;
+  }
+
+.box-outter{
+  margin-bottom: 40px;
+}
+
+.inner-card{
+  margin-top: 30px;
+}
+
+.inner-fcard{
+  margin-top: 30px;
+}
+
+.f-card{
+  align-items: center;
+  justify-content: center;
+}
+}
